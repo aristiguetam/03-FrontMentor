@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .span {
+        @apply hidden lg:flex font-bold text-[#fff] leading-normal text-[16px] tracking-[2.7px] not-italic 
+    }
+
+    .lineDivider {
+        @apply hidden lg:flex w-[380px] h-[1px] opacity-[0.2514851987361908] bg-[#fff] absolute left-[160px] z-50
+    }
+
+    .bgEnlacesNav {
+        @apply hidden md:flex items-center gap-9 lg:gap-14 bg-[#ffffff0a] backdrop-blur-[40.774227142333984px] h-[96px] lg:w-[830px] w-[450px]
+    }
+
+    .enlaces{
+        @apply text-[#fff] text-[16px] leading-normal font-bold tracking-[2.7px]  not-italic cursor-pointer 
+    }
+
+    .active{
+        @apply border-b-[3px] border-[#fff] py-8 
+    }
+}
